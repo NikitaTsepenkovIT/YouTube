@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding: 20px 70px 20px 32px;
+    display: flex;
+    align-items: center;
+
+}
 .menu-button {
     background-color: #fff;
     width: 20px;
@@ -11,6 +21,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 28px;
+    cursor: pointer;
 }
 
 .menu-line {
@@ -18,5 +30,76 @@
     height: 3px;
     width: 20px;
     background: #1F2022;
+    border-radius: 20px;
 
+}
+
+.logo {
+    margin-right: 59px;
+}
+
+.input-group {
+    background-color: #EBEBEB;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 17px;
+    max-width: 830px;
+    width: 50%;
+}
+
+.search-input {
+    border: none;
+    background-color: transparent;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 23px;
+    padding-right: 23px;
+
+}
+
+.button-search {
+    border: none;
+    width: 19px;
+    height: 19px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.icon-search {
+    fill: #000;
+}
+
+.icons {
+    align-items: center;
+    margin-left: auto;
+}
+
+.icon-video {
+    opacity: 0.24;
+}
+.icon-video:hover {
+    opacity: 0.8;
+}
+
+.icons-link {
+    text-decoration: none;
+    opacity: 0.24;
+}
+.icons-link:hover {
+    opacity: 0.8;
+}
+.icons-link:not(:last-child){
+    margin-right: 50px;
+}
+
+.user {
+    margin-left: 40px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
