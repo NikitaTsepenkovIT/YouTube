@@ -112,7 +112,7 @@ body {
     position: fixed;
     left: 0;
     top: 114px;
-    height: calc(100%-114px);
+    height: calc(100% - 114px);
     overflow-y: auto;
     padding-left: 32px;
     background-color: #fff;
@@ -176,7 +176,7 @@ body {
 
 .channel {
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .channel-avatar {
