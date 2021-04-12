@@ -310,6 +310,17 @@ body {
     margin-left: 9px;
 }
 
+.subscription-button {
+    background: #FF0000;
+    border-radius: 20px;
+    width: 154px;
+    height: 40px;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 7px;
+    right: 18%;
+}
+
 .mobile-sidebar {
     display: none;
 }
